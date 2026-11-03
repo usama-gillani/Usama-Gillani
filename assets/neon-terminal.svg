@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" font-family="'Fira Code','JetBrains Mono','Cascadia Code',Consolas,monospace">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff2bd6">
+        <animate attributeName="stop-color" values="#ff2bd6;#00f0ff;#7b2ff7;#ff2bd6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00f0ff">
+        <animate attributeName="stop-color" values="#00f0ff;#7b2ff7;#ff2bd6;#00f0ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="boxglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="win"><rect x="10" y="10" width="840" height="320" rx="14"/></clipPath>
+    <clipPath id="c1"><rect x="30" y="66" height="28" width="0"><animate attributeName="width" from="0" to="800" begin="0.5s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="30" y="96" height="28" width="0"><animate attributeName="width" from="0" to="800" begin="1.4s" dur="0.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="30" y="134" height="28" width="0"><animate attributeName="width" from="0" to="800" begin="2.2s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="30" y="164" height="28" width="0"><animate attributeName="width" from="0" to="800" begin="3.1s" dur="0.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="30" y="194" height="28" width="0"><animate attributeName="width" from="0" to="800" begin="3.5s" dur="0.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="30" y="232" height="28" width="0"><animate attributeName="width" from="0" to="800" begin="4.3s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="30" y="262" height="28" width="0"><animate attributeName="width" from="0" to="800" begin="5.2s" dur="0.5s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- neon outer glow -->
+  <rect x="10" y="10" width="840" height="320" rx="14" fill="none" stroke="url(#border)" stroke-width="4" filter="url(#boxglow)" opacity="0.8"/>
+  <!-- window -->
+  <rect x="10" y="10" width="840" height="320" rx="14" fill="#0b0221"/>
+  <g clip-path="url(#win)">
+    <rect x="10" y="10" width="840" height="40" fill="#160536"/>
+    <!-- moving scanline -->
+    <rect x="10" y="-80" width="840" height="80" fill="url(#scan)">
+      <animate attributeName="y" from="-80" to="340" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="10" y="10" width="840" height="320" rx="14" fill="none" stroke="url(#border)" stroke-width="2"/>
+
+  <!-- title bar -->
+  <circle cx="36" cy="30" r="6" fill="#ff2bd6"/>
+  <circle cx="56" cy="30" r="6" fill="#ffd319"/>
+  <circle cx="76" cy="30" r="6" fill="#00f0ff"/>
+  <text x="430" y="35" text-anchor="middle" font-size="14" fill="#9d8fd9">usama@neural-lab: ~</text>
+
+  <g font-size="17">
+    <g clip-path="url(#c1)">
+      <text x="34" y="86"><tspan fill="#ff2bd6" filter="url(#glow)">❯</tspan><tspan fill="#00f0ff" dx="10">whoami</tspan></text>
+    </g>
+    <g clip-path="url(#c2)">
+      <text x="34" y="116" fill="#e6dcff">Usama Gillani <tspan fill="#7b6bb5">·</tspan> AI Engineer @ <tspan fill="#ff2bd6">BetaCodes</tspan> <tspan fill="#7b6bb5">·</tspan> MSAI @ <tspan fill="#00f0ff">NUST</tspan></text>
+    </g>
+    <g clip-path="url(#c3)">
+      <text x="34" y="154"><tspan fill="#ff2bd6" filter="url(#glow)">❯</tspan><tspan fill="#00f0ff" dx="10">cat stack.txt</tspan></text>
+    </g>
+    <g clip-path="url(#c4)">
+      <text x="34" y="184" fill="#e6dcff"><tspan fill="#b388ff">agents</tspan><tspan dx="20">LangGraph</tspan>  · LangChain · CrewAI · MCP · OpenAI Agents SDK</text>
+    </g>
+    <g clip-path="url(#c5)">
+      <text x="34" y="214" fill="#e6dcff"><tspan fill="#b388ff">ml</tspan><tspan dx="61">PyTorch</tspan>  · Hugging Face · YOLO · ViT · BERT · PPO · RAG</text>
+    </g>
+    <g clip-path="url(#c6)">
+      <text x="34" y="252"><tspan fill="#ff2bd6" filter="url(#glow)">❯</tspan><tspan fill="#00f0ff" dx="10">./mission --now</tspan></text>
+    </g>
+    <g clip-path="url(#c7)">
+      <text x="34" y="282" fill="#39ff88" filter="url(#glow)">building AI that reasons, plans &amp; acts ⚡</text>
+    </g>
+    <!-- final prompt + blinking cursor -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="6s" dur="0.1s" fill="freeze"/>
+      <text x="34" y="314" fill="#ff2bd6" filter="url(#glow)">❯</text>
+      <rect x="56" y="300" width="10" height="18" fill="#00f0ff">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
