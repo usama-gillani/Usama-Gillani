@@ -7,5 +7,11 @@
   "weakColor": "#7b6bb5",
   "radarColor": "#00f0ff",
   "growingAnimation": true,
-  "contribColors": ["#1a0638", "#3c1361", "#7b2ff7", "#ff2bd6", "#00f0ff"]
+  "contribColors": [
+    "#1a0638",
+    "#b14aed",
+    "#ff2bd6",
+    "#ff7ae8",
+    "#00f0ff"
+  ]
 }
