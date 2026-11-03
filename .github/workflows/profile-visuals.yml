@@ -2,7 +2,7 @@ name: Generate profile visuals
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # refresh twice a day
+    - cron: "0 */6 * * *"    # refresh every 6 hours
   workflow_dispatch:          # run manually from the Actions tab
   push:
     branches: [main]
@@ -12,17 +12,32 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build neon stats card
+      - name: Neon stats card
         env:
-          # Optional: add a STATS_TOKEN secret (classic PAT, read:user + repo) to include private contributions
+          # Optional: add a STATS_TOKEN secret (classic PAT: read:user + repo) to include private contributions
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 tools/stats_card.py "${{ github.repository_owner }}" dist/stats.svg
 
-      - name: Generate snake SVGs
+      - name: Live activity feed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/activity_card.py "${{ github.repository_owner }}" dist/activity.svg
+
+      - name: 3D contribution city
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/3d-contrib.json
+
+      - name: Collect 3D city
+        run: cp profile-3d-contrib/city-neon.svg dist/city-neon.svg
+
+      - name: Contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -30,7 +45,7 @@ jobs:
             dist/snake-neon.svg?palette=github-dark&color_snake=#ff2bd6&color_dots=#160536,#3c1361,#7b2ff7,#b14aed,#00f0ff&color_background=#0b0221
             dist/snake-light.svg?color_snake=#7b2ff7&color_dots=#ebedf0,#e0c3fc,#b14aed,#7b2ff7,#ff2bd6
 
-      - name: Push to output branch
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

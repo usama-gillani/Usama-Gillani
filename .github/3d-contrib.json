@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "city-neon.svg",
+  "backgroundColor": "#0b0221",
+  "foregroundColor": "#e6dcff",
+  "strongColor": "#ff2bd6",
+  "weakColor": "#7b6bb5",
+  "radarColor": "#00f0ff",
+  "growingAnimation": true,
+  "contribColors": ["#1a0638", "#3c1361", "#7b2ff7", "#ff2bd6", "#00f0ff"]
+}

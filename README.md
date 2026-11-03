@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/usama-gillani-5847811b2"><img src="https://img.shields.io/badge/LinkedIn-0b0221?style=for-the-badge&logo=linkedin&logoColor=00f0ff&labelColor=0b0221&color=7b2ff7"/></a>
+  <a href="https://www.linkedin.com/in/usamagillani"><img src="https://img.shields.io/badge/LinkedIn-0b0221?style=for-the-badge&logo=linkedin&logoColor=00f0ff&labelColor=0b0221&color=7b2ff7"/></a>
   <a href="mailto:usamagillani91@gmail.com"><img src="https://img.shields.io/badge/Email-0b0221?style=for-the-badge&logo=gmail&logoColor=ff2bd6&labelColor=0b0221&color=ff2bd6"/></a>
   <img src="https://komarev.com/ghpvc/?username=usama-gillani&label=profile%20views&color=7b2ff7&style=for-the-badge"/>
 </p>
@@ -18,6 +18,15 @@
 <!-- ═══════════════ TERMINAL ═══════════════ -->
 <p align="center">
   <img src="./assets/neon-terminal.svg" width="100%" alt="whoami terminal"/>
+</p>
+
+<!-- ═══════════════ AGENT TRACE ═══════════════ -->
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
+<h2 align="center">🧠 how my agents think</h2>
+
+<p align="center">
+  <img src="./assets/agent-trace.svg" width="100%" alt="animated agent trace: query → planner → tools → reflect → answer"/>
 </p>
 
 <!-- ═══════════════ ABOUT ═══════════════ -->
@@ -77,6 +86,10 @@ class UsamaGillani(AIEngineer):
   <img src="https://img.shields.io/badge/Celery-0b0221?style=flat-square&logo=celery&logoColor=39ff88"/>
 </p>
 
+<p align="center">
+  <img src="./assets/skill-net.svg" width="100%" alt="neural network of skills"/>
+</p>
+
 <!-- ═══════════════ PROJECTS ═══════════════ -->
 <p align="center"><img src="./assets/divider.svg" width="100%"/></p>
 
@@ -133,15 +146,31 @@ class UsamaGillani(AIEngineer):
 <h2 align="center">📊 stats.exe</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/usama-gillani/usama-gillani/output/stats.svg" width="100%" alt="neon GitHub stats"/>
+  <img src="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/stats.svg" width="100%" alt="neon GitHub stats"/>
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
+<h2 align="center">📡 live feed</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/activity.svg" width="100%" alt="latest public GitHub activity"/>
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
+<h2 align="center">🏙️ contribution city</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/city-neon.svg" width="100%" alt="3D neon contribution skyline"/>
 </p>
 
 <!-- ═══════════════ SNAKE ═══════════════ -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usama-gillani/usama-gillani/output/snake-neon.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usama-gillani/usama-gillani/output/snake-light.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/usama-gillani/usama-gillani/output/snake-neon.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/snake-neon.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/snake-light.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/snake-neon.svg"/>
   </picture>
 </p>
 
