@@ -167,11 +167,7 @@ class UsamaGillani(AIEngineer):
 
 <!-- ═══════════════ SNAKE ═══════════════ -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/snake-neon.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/snake-light.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/snake-neon.svg"/>
-  </picture>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/usama-gillani/Usama-Gillani/output/snake-neon.svg" width="100%"/>
 </p>
 
 <p align="center">
