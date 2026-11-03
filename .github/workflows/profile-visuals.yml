@@ -1,4 +1,4 @@
-name: Generate neon contribution snake
+name: Generate profile visuals
 
 on:
   schedule:
@@ -14,6 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Build neon stats card
+        env:
+          # Optional: add a STATS_TOKEN secret (classic PAT, read:user + repo) to include private contributions
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 tools/stats_card.py "${{ github.repository_owner }}" dist/stats.svg
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:

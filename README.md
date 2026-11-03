@@ -1,11 +1,11 @@
 <!-- ═══════════════ HEADER ═══════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0221,40:7b2ff7,75:ff2bd6,100:00f0ff&height=230&section=header&text=Usama%20Gillani&fontSize=68&fontColor=ffffff&fontAlign=50&fontAlignY=38&animation=fadeIn&desc=AI%20Engineer%20%E2%80%A2%20Agentic%20AI%20%E2%80%A2%20LLMs%20%E2%80%A2%20RAG&descSize=20&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="./assets/hero.svg" width="100%" alt="Usama Gillani — AI Engineer"/>
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&multiline=false&width=640&height=50&lines=building+AI+that+reasons%2C+plans+%26+acts+%F0%9F%A4%96;multi-agent+systems+%E2%80%A2+LangGraph+%E2%80%A2+MCP+%E2%9A%A1;RAG+pipelines+that+don't+hallucinate+%F0%9F%93%9A;shipping+agents+%40+BetaCodes+%F0%9F%9A%80;MSAI+%40+NUST+%F0%9F%8E%93" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&multiline=false&width=640&height=50&lines=multi-agent+systems+%E2%80%A2+LangGraph+%E2%80%A2+MCP+%E2%9A%A1;RAG+pipelines+that+don't+hallucinate+%F0%9F%93%9A;shipping+agents+%40+BetaCodes+%F0%9F%9A%80;MSAI+%40+NUST+%F0%9F%8E%93" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -21,6 +21,8 @@
 </p>
 
 <!-- ═══════════════ ABOUT ═══════════════ -->
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
 <h2 align="center">⚡ about.py</h2>
 
 ```python
@@ -31,13 +33,25 @@ class UsamaGillani(AIEngineer):
         self.based_in  = "Islamabad, PK 🇵🇰"
         self.building  = ["multi-agent systems", "RAG pipelines", "document AI", "voice agents"]
         self.vibe      = "agents > chatbots"
-        self.fun_fact  = "trained a humanoid to walk with PPO before I could do a pull-up"
+        self.fun_fact  = "I debug my agents by asking other agents 🫠"
 
     def current_focus(self):
         return "making LLM agents reliable enough for real enterprise workflows 🧠"
 ```
 
+<table align="center"><tr><td>
+
+🔭 **rn building** — multi-agent systems that actually ship to prod<br/>
+🌱 **leveling up in** — agent evals, MCP servers, LLM observability<br/>
+🧪 **side quests** — vision transformers, RL agents, voice AI<br/>
+💬 **ask me about** — LangGraph, RAG, document AI, making agents not hallucinate<br/>
+📫 **slide into** — usamagillani91@gmail.com
+
+</td></tr></table>
+
 <!-- ═══════════════ STACK ═══════════════ -->
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
 <h2 align="center">🛠️ tech arsenal</h2>
 
 <p align="center">
@@ -64,6 +78,8 @@ class UsamaGillani(AIEngineer):
 </p>
 
 <!-- ═══════════════ PROJECTS ═══════════════ -->
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
 <h2 align="center">🚀 featured builds</h2>
 
 <table align="center">
@@ -112,19 +128,12 @@ class UsamaGillani(AIEngineer):
 </table>
 
 <!-- ═══════════════ STATS ═══════════════ -->
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
 <h2 align="center">📊 stats.exe</h2>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=usama-gillani&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0221&title_color=ff2bd6&icon_color=00f0ff&text_color=e6dcff&border_color=7b2ff7&ring_color=ff2bd6&border_radius=12"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=usama-gillani&layout=compact&langs_count=6&bg_color=0b0221&title_color=ff2bd6&text_color=e6dcff&border_color=7b2ff7&border_radius=12"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=usama-gillani&background=0B0221&border=7B2FF7&ring=FF2BD6&fire=FF2BD6&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=FF2BD6&sideLabels=E6DCFF&dates=9D8FD9&border_radius=12" width="80%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=usama-gillani&bg_color=0b0221&color=00f0ff&line=ff2bd6&point=ffffff&area=true&area_color=7b2ff7&hide_border=false&border_color=7b2ff7&radius=12&title_color=ff2bd6" width="100%"/>
+  <img src="https://raw.githubusercontent.com/usama-gillani/usama-gillani/output/stats.svg" width="100%" alt="neon GitHub stats"/>
 </p>
 
 <!-- ═══════════════ SNAKE ═══════════════ -->
