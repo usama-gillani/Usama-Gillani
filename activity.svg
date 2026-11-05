@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="212" viewBox="0 0 1000 212" font-family="'Fira Code','JetBrains Mono',Consolas,monospace">
+<defs>
+ <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#7b2ff7"><animate attributeName="stop-color" values="#7b2ff7;#ff2bd6;#00f0ff;#7b2ff7" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="1" stop-color="#00f0ff"><animate attributeName="stop-color" values="#00f0ff;#7b2ff7;#ff2bd6;#00f0ff" dur="6s" repeatCount="indefinite"/></stop>
+ </linearGradient>
+ <filter id="gl" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>.r{opacity:0;animation:f .45s ease forwards}@keyframes f{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}</style>
+</defs>
+<rect x="2" y="2" width="996" height="208" rx="16" fill="#0b0221" stroke="url(#bd)" stroke-width="2"/>
+<text x="30" y="42" font-size="16" fill="#ff2bd6" filter="url(#gl)">❯ <tspan fill="#00f0ff">git log</tspan> <tspan fill="#7b6bb5">--author=@usama-gillani --live</tspan></text>
+<circle cx="890" cy="37" r="5" fill="#39ff88" filter="url(#gl)"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="902" y="42" font-size="13" fill="#39ff88">LIVE</text>
+<line x1="30" y1="60" x2="970" y2="60" stroke="#2a1158"/>
+<g class="r" style="animation-delay:0.20s"><circle cx="38" cy="91" r="4" fill="#00f0ff" filter="url(#gl)"/><line x1="38" y1="97" x2="38" y2="121" stroke="#2a1158" stroke-width="2"/><text x="56" y="96" font-size="15" fill="#e6dcff">⬆  pushed to <tspan fill="#00f0ff" font-weight="700">usama-gillani/Usama-Gillani</tspan></text><text x="970" y="96" font-size="13" text-anchor="end" fill="#7b6bb5">1d ago</text></g>
+<g class="r" style="animation-delay:0.32s"><circle cx="38" cy="125" r="4" fill="#00f0ff" filter="url(#gl)"/><line x1="38" y1="131" x2="38" y2="155" stroke="#2a1158" stroke-width="2"/><text x="56" y="130" font-size="15" fill="#e6dcff">⬆  pushed to <tspan fill="#00f0ff" font-weight="700">usama-gillani/personal-portfolio</tspan></text><text x="970" y="130" font-size="13" text-anchor="end" fill="#7b6bb5">6d ago</text></g>
+<g class="r" style="animation-delay:0.44s"><circle cx="38" cy="159" r="4" fill="#39ff88" filter="url(#gl)"/><text x="56" y="164" font-size="15" fill="#e6dcff">🔓  open-sourced <tspan fill="#39ff88" font-weight="700">usama-gillani/Usama-Gillani</tspan></text><text x="970" y="164" font-size="13" text-anchor="end" fill="#7b6bb5">13d ago</text></g>
+<text x="30" y="194" font-size="11" fill="#4b3d80">auto-refreshed by github actions · 2026-11-05 03:59 UTC</text>
+</svg>
